@@ -24,19 +24,28 @@ The model is trained on the [Liao et al. 2025](https://doi.org/10.1101/2025.01.0
 
 ---
 
+## Notebooks
+
+> GitHub cannot render large notebooks inline. Use the nbviewer links below to view all figures and outputs.
+
+| Notebook | Contents | View |
+|----------|----------|------|
+| `module2_prototype.ipynb` | End-to-end training pipeline, early representation analysis | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/saijaya/delta-expression-encoder/blob/main/module2_prototype.ipynb) |
+| `module2_investigate_INV1-12.ipynb` | INV-1 through 12: PCA/UMAP, attention modules, probing, HTR2A, Bagot cross-dataset | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/saijaya/delta-expression-encoder/blob/main/module2_investigate_INV1-12.ipynb) |
+| `module2_investigate_INV13-17.ipynb` | INV-13 through 17: wrong-prediction attention, variance asymmetry, biotype, magnitude ρ | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/saijaya/delta-expression-encoder/blob/main/module2_investigate_INV13-17.ipynb) |
+
+---
+
 ## Repository structure
 
 ```
 delta-expression-encoder/
 ├── README.md
-├── requirements.txt
-├── train.py                        # Training script (cleaned from module2_prototype.py)
-├── model.py                        # DeltaExpressionEncoder class definition
-├── data/
-│   └── build_tensors.py            # Pseudobulk construction + input tensor pipeline
-├── analysis/
-│   ├── investigate.py              # INV-1 through INV-10: representation, attention, probing
-│   └── investigate_bagot.py        # INV-11 through INV-17: cross-dataset generalization
+├── module2_prototype.py                   # End-to-end training pipeline + early analysis
+├── module2_investigate.py                 # Full investigation script — INV-1 through INV-17
+├── module2_prototype.ipynb                # Notebook with embedded outputs
+├── module2_investigate_INV1-12.ipynb      # Notebook with embedded outputs (INV-1–12)
+├── module2_investigate_INV13-17.ipynb     # Notebook with embedded outputs (INV-13–17)
 ├── figures/
 │   └── (generated figures, not tracked in git)
 └── checkpoints/
