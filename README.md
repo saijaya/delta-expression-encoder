@@ -30,9 +30,9 @@ The model is trained on the [Liao et al. 2025](https://doi.org/10.1101/2025.01.0
 
 | Notebook | Contents | View |
 |----------|----------|------|
-| `module2_prototype.ipynb` | End-to-end training pipeline, early representation analysis | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/saijaya/delta-expression-encoder/blob/main/module2_prototype.ipynb) |
-| `module2_investigate_INV1-12.ipynb` | INV-1 through 12: PCA/UMAP, attention modules, probing, HTR2A, Bagot cross-dataset | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/saijaya/delta-expression-encoder/blob/main/module2_investigate_INV1-12.ipynb) |
-| `module2_investigate_INV13-17.ipynb` | INV-13 through 17: wrong-prediction attention, variance asymmetry, biotype, magnitude ρ | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/saijaya/delta-expression-encoder/blob/main/module2_investigate_INV13-17.ipynb) |
+| `module2_prototype.ipynb` | End-to-end training pipeline, early representation analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saijaya/delta-expression-encoder/blob/main/module2_prototype.ipynb) |
+| `module2_investigate_INV1-12.ipynb` | INV-1 through 12: PCA/UMAP, attention modules, probing, HTR2A, Bagot cross-dataset | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saijaya/delta-expression-encoder/blob/main/module2_investigate_INV1-12.ipynb) |
+| `module2_investigate_INV13-17.ipynb` | INV-13 through 17: wrong-prediction attention, variance asymmetry, biotype, magnitude ρ | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saijaya/delta-expression-encoder/blob/main/module2_investigate_INV13-17.ipynb) |
 
 ---
 
